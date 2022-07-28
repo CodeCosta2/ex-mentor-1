@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Karla;
+}
+
+body {
+    background-color: #ccc;
+}
+
+article {
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 150px;
+    border-radius: 8px;
+    width: 900px;
+    height: 600px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+article h1 {
+    color: hsl(179, 62%, 43%);
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+article>h2 {
+    color: hsl(71, 73%, 54%);
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+article > p {
+    padding: 5px 20px;
+    color: hsl(206, 3%, 50%);
+}
+
+.inscricao {
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+    border-bottom-left-radius: 8px;
+    width: 450px;
+    height: 375px;
+    position: absolute;
+    bottom: 186px;
+    left: 510px;
+}
+
+.why {
+    background-color: hsl(179, 53%, 64%);
+    color: #fff;
+    position: absolute;
+    bottom: 186px;
+    right: 510px;
+    border-bottom-right-radius: 8px;
+    width: 450px;
+    height: 375px;
+}
+
+.inscricao h3 {
+    font-size: 1.4em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.inscricao .dolar {
+    padding-left: 30px;
+    font-size: 2em;
+}
+
+.inscricao .mes {
+    color:#ccc;
+}
+
+.inscricao p {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.inscricao button {
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.why h3 {
+    font-size: 1.4em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.why ul {
+    text-align: justify;
+    margin-left: 30px ;
+    line-height: 25px;
+}
